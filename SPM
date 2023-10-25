@@ -1,0 +1,15 @@
+dix=[]
+s=0
+p=1
+for i in range(0,10):
+
+    a= float(input("write the nember float for calculate :"))
+    dix.append(a)
+    s=s+dix[i]
+
+    p=p*dix[i]
+print("addition is", s)
+
+print("product is", p)
+
+print("average is", s/10)
